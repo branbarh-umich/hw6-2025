@@ -1,6 +1,3 @@
-// [TODO] accessability check
-// [TODO] ask about whether console logs are required or not
-
 let video;
 
 window.addEventListener("load", function () {
@@ -46,7 +43,7 @@ document.querySelector("#skip").addEventListener("click", function () {
   video.currentTime += 10;
 
   if (video.currentTime >= video.duration) {
-    video.currentTime = 0; // [TODO] is this right?
+    video.currentTime = 0;
   }
 
   // [DONE] Log the current location of the video:
